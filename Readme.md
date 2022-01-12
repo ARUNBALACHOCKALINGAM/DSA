@@ -4,7 +4,9 @@ Here I post solutions of various data structure and algorithm problems from leet
 
 Language used: java
 
-Author: 
-https://github.com/ARUNBALACHOCKALINGAM
-https://github.com/sandheep0705
-https://github.com/srivathsan861
+Author:
+<br>
+<a href="https://github.com/ARUNBALACHOCKALINGAM">ARUNBALACHOCKALINGAM</a><br/>
+<a href="https://github.com/sandheep0705">sandheep0705</a><br/>
+<a href="https://github.com/srivathsan861">srivathsan861</a>
+
