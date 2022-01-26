@@ -1,8 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "Array/Selection-sort",
         "Array/Linear-search",
         "Array/Leetcode",
+        "Array/Bubble-sort",
         "Array/Binary-search",
-        "Array/Bubble-sort"
+        "Array/Cyclic-sort"
     ]
 }
