@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
         "Array/Linear-search",
+        "Array/Leetcode",
         "Array/Binary-search",
-        "Array/Leetcode"
+        "Array/Bubble-sort"
     ]
 }
