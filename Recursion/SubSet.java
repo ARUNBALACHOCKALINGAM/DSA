@@ -1,22 +1,22 @@
-package com.kunal.strings;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.ArrayList;
 
-public class SubSet {
+public class Subset {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 2};
-        List<List<Integer>> ans = subsetDuplicate(arr);
-        for (List<Integer> list : ans) {
-            System.out.println(list);
-        }
+
+        System.out.println(subset(new int[]{1,2,3,4,5,6,7,8,9,10,11,12}));
+        
     }
 
-    static List<List<Integer>> subset(int[] arr) {
-        List<List<Integer>> outer = new ArrayList<>();
-        outer.add(new ArrayList<>());
-        for (int num : arr) {
+
+    static List<List<Integer>> subset(int[] arr){ 
+
+        // creating a list of elements where type of elements is also a list
+        List<List<Integer>>  outer = new ArrayList<>();
+        //adding an empty list in the outer lsit
+        outer.add(new ArrayList<Integer>());
+
+        for(int num:arr){
             int n = outer.size();
             for (int i = 0; i < n; i++) {
                 List<Integer> internal = new ArrayList<>(outer.get(i));
@@ -24,29 +24,8 @@ public class SubSet {
                 outer.add(internal);
             }
         }
-        return outer;
-    }
 
-    static List<List<Integer>> subsetDuplicate(int[] arr) {
-        Arrays.sort(arr);
-        List<List<Integer>> outer = new ArrayList<>();
-        outer.add(new ArrayList<>());
-        int start = 0;
-        int end = 0;
-        for (int i = 0; i < arr.length; i++) {
-            start = 0;
-            // if current and previous element is same, s = e + 1
-            if (i > 0 && arr[i] == arr[i-1]) {
-                start = end + 1;
-            }
-            end = outer.size() - 1;
-            int n = outer.size();
-            for (int j = start; j < n; j++) {
-                List<Integer> internal = new ArrayList<>(outer.get(j));
-                internal.add(arr[i]);
-                outer.add(internal);
-            }
-        }
         return outer;
+
     }
 }
