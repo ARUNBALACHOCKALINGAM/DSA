@@ -12,7 +12,6 @@ public class Cyclicsort {
         int i=0;
 
         while(i < arr.length) {
-           
             int correctindex = arr[i] - 1;
             if(arr[i] != arr[correctindex]){
                  swap(arr,i,correctindex);

@@ -1,0 +1,197 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Permutations",
+            "request": "launch",
+            "mainClass": "Permutations",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subset",
+            "request": "launch",
+            "mainClass": "Subset",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bubble",
+            "request": "launch",
+            "mainClass": "Bubble",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharectorinString",
+            "request": "launch",
+            "mainClass": "CharectorinString",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concatenation",
+            "request": "launch",
+            "mainClass": "Concatenation",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cyclicsort",
+            "request": "launch",
+            "mainClass": "Cyclicsort",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Elementsearch",
+            "request": "launch",
+            "mainClass": "Elementsearch",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMin",
+            "request": "launch",
+            "mainClass": "FindMin",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Findevendigits",
+            "request": "launch",
+            "mainClass": "Findevendigits",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertion",
+            "request": "launch",
+            "mainClass": "Insertion",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mergesort",
+            "request": "launch",
+            "mainClass": "Mergesort",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Missingnumber",
+            "request": "launch",
+            "mainClass": "Missingnumber",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutationofarrays",
+            "request": "launch",
+            "mainClass": "Permutationofarrays",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quicksort",
+            "request": "launch",
+            "mainClass": "Quicksort",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Robber",
+            "request": "launch",
+            "mainClass": "Robber",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Searchin2D",
+            "request": "launch",
+            "mainClass": "Searchin2D",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Searchin2Darrays",
+            "request": "launch",
+            "mainClass": "Searchin2Darrays",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Searchinrange",
+            "request": "launch",
+            "mainClass": "Searchinrange",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Selection",
+            "request": "launch",
+            "mainClass": "Selection",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shufflearray",
+            "request": "launch",
+            "mainClass": "Shufflearray",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Simplesearch",
+            "request": "launch",
+            "mainClass": "Simplesearch",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Skip",
+            "request": "launch",
+            "mainClass": "Skip",
+            "projectName": "DSA_175c1f96",
+            "stepFilters": {
+                "skipClasses": [
+                    "java.lang.ClassLoader"
+                ],
+                "skipSynthetics": false,
+                "skipStaticInitializers": false,
+                "skipConstructors": false
+            }
+        },
+        {
+            "type": "java",
+            "name": "Launch ZIgzag",
+            "request": "launch",
+            "mainClass": "ZIgzag",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch patterns",
+            "request": "launch",
+            "mainClass": "patterns",
+            "projectName": "DSA_175c1f96"
+        }
+    ]
+}
