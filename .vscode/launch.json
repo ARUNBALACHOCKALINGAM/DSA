@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Dice",
+            "request": "launch",
+            "mainClass": "Dice",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhonePattern",
+            "request": "launch",
+            "mainClass": "PhonePattern",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Launch Permutations",
             "request": "launch",
             "mainClass": "Permutations",
