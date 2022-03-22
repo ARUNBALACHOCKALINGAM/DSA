@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class Selection {
     public static void main(String[] args) {
+        //
         int[] arr = {5,4,1,2,3};
         selection(arr);
         System.out.println(Arrays.toString(arr));
@@ -10,11 +11,10 @@ public class Selection {
     static void selection(int[] arr){
 
          //run the steps for n-1
-    
          for(int  i=0;i<arr.length;i++){
-             int last = arr.length-i-1;
-             int maxIndex= maxIndex(arr,0,last);
-             swap(arr,maxIndex,last);
+             int last = arr.length-i-1; // last index
+             int maxIndex= maxIndex(arr,0,last); // to find max index
+             swap(arr,maxIndex,last); // swap max index with last index
          }
     
     }
@@ -34,7 +34,5 @@ public class Selection {
         arr[first] = arr[second];
         arr[second] = temp;
     }
-
-
 }
 

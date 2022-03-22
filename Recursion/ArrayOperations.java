@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class ArrayOperations {
     public static void main(String[] args) {
         int fact = fact(5);
         int sum = sumofdigits(12);

@@ -1,5 +1,3 @@
-package com.kunal.strings;
-
 import java.util.ArrayList;
 
 public class SubSeq {

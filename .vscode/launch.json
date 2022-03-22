@@ -4,6 +4,39 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubstring",
+            "request": "launch",
+            "mainClass": "LongestSubstring",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mace",
+            "request": "launch",
+            "mainClass": "Mace",
+            "projectName": "DSA_175c1f96",
+            "skipFiles": [
+                "*"
+            ]
+        },
         {
             "type": "java",
             "name": "Launch Dice",

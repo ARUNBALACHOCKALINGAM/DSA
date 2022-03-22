@@ -1,8 +1,8 @@
 public class Simplesearch{
     public static void main(String args[]){
 
-        int[] arr={2,3,4,15,16,17,18};
-        int target=16;
+        int[] arr={1,0,1,1,1};
+        int target=0;
         int ans;
 
         if(arr[0]<arr[arr.length-1]){

@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Strings",
+        "Recursion",
         "Array/Selection-sort",
         "Array/Recursion",
         "Array/Quick-sort",
@@ -10,6 +12,6 @@
         "Array/Cyclic-sort",
         "Array/Bubble-sort",
         "Array/Binary-search",
-        "Strings"
+        ""
     ]
 }
