@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WordGame",
+            "request": "launch",
+            "mainClass": "WordGame",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Heapsort",
+            "request": "launch",
+            "mainClass": "Heapsort",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch RightView",
+            "request": "launch",
+            "mainClass": "RightView",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeftView",
+            "request": "launch",
+            "mainClass": "LeftView",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch DFS",
+            "request": "launch",
+            "mainClass": "trees.DFS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch BFS",
+            "request": "launch",
+            "mainClass": "trees.BFS",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepthFirst",
+            "request": "launch",
+            "mainClass": "trees.DepthFirst",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Heapsort",
+            "request": "launch",
+            "mainClass": "trees.Heapsort",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreadhFirstSearch",
+            "request": "launch",
+            "mainClass": "trees.BreadhFirstSearch",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "trees.BinaryTree",
+            "projectName": "DSA_175c1f96"
+        },
+        {
+            "type": "java",
             "name": "Launch fibonacci",
             "request": "launch",
             "mainClass": "fibonacci",
